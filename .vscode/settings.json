@@ -1,0 +1,7 @@
+{
+    "editor.stickyTabStops": false,
+    "editor.wordWrap": "on",
+    "diffEditor.wordWrap": "inherit",
+    "chat.editor.wordWrap": "off",
+    "editor.wordBreak": "normal"
+}
