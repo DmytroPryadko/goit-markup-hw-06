@@ -1272,7 +1272,7 @@ fill: #2e2f42;
 
 .features-list{
     /* flex-wrap: none; */
-    gap:24;
+    gap:24px;
 }
 
 .features-item {
