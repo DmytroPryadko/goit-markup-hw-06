@@ -171,17 +171,19 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 .mob-meny {
     position: fixed;
     top: 0;
+    z-index: 999;
     width: 100vw;
     height: 100%; 
     padding: 16px;
     background-color: #fff;
+    overflow-y: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* opacity: 0;
+    opacity: 0;
     pointer-events: none;
-    visibility: hidden; */
-    transform: translate(100%); 
+    visibility: hidden;
+    /* transform: translate(100%);  */
     transition: transform 450ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 72px 16px 40px;
 }
@@ -839,11 +841,10 @@ flex-direction: column;
     background: rgba(46, 47, 66, 0.4);
     width: 100%;
     height: 100%;
-    /* opacity: 0;
+    opacity: 0;
     visibility: hidden;
-    pointer-events: none; */
-    transform: translate(100%); 
-    transition: transform 450ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    pointer-events: none;
+    
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
     background-color: rgba(46, 47, 66, 0.4);
@@ -852,9 +853,9 @@ flex-direction: column;
 
 
 .is-open{
-    /* opacity: 1;
+    opacity: 1;
     visibility: visible;
-    pointer-events: auto; */
+    pointer-events: auto;
     transform: translate(0);}
 
 
